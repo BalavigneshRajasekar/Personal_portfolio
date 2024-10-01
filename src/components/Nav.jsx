@@ -61,6 +61,11 @@ export default function Nav(props) {
               <a
                 style={{
                   padding: "10px",
+                  fontSize: "16px",
+                  fontWeight: "bold",
+                  lineHeight: "24px",
+                  letterSpacing: "-0.01em",
+                  display: "block",
                   cursor: "pointer",
                   textDecoration: "none",
                   color: "black",
@@ -72,7 +77,9 @@ export default function Nav(props) {
             </ListItemButton>
           </ListItem>
         ))}
+        <Divider />
       </List>
+      <p className="mt-3">@2024 All rights reserved</p>
     </Box>
   );
 
