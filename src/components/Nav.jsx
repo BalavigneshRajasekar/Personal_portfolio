@@ -20,8 +20,9 @@ import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import "../App.css";
 import Home from "./Home";
+import About from "./About";
 
-const pages = ["Home", "About", "Projects"];
+const pages = ["Home", "About", "Projects", "Skills", "Contact"];
 const drawerWidth = 240;
 
 function HideOnScroll(props) {
@@ -152,6 +153,9 @@ export default function Nav(props) {
           <Toolbar />
           <div id="Home">
             <Home />
+          </div>
+          <div id="About">
+            <About />
           </div>
         </Box>
       </Box>
