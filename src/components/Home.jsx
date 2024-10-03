@@ -46,7 +46,7 @@ function Home() {
         <Grid container spacing={5} sx={{ marginTop: 7 }}>
           <Grid size={{ xs: 6, md: 3 }}>
             <a
-              href="https://github.com/balavignesh123"
+              href="https://github.com/BalavigneshRajasekar"
               target="blank"
               className="text-decoration-none "
             >
