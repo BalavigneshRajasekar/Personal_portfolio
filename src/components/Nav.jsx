@@ -18,6 +18,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
+import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 import "../App.css";
 import Home from "./Home";
 import About from "./About";
@@ -51,36 +52,44 @@ export default function Nav(props) {
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
-      <Typography variant="h6" sx={{ my: 2 }}>
+      <Typography variant="h6" sx={{ my: 2, color: "white" }}>
         PortFolio
       </Typography>
       <Divider />
       <List>
         {pages.map((item) => (
           <ListItem key={item} disablePadding>
-            <ListItemButton sx={{ textAlign: "center" }}>
+            <ListItemButton
+              sx={{
+                textAlign: "center",
+              }}
+            >
               <a
+                className="drawer-nav"
                 style={{
                   padding: "10px",
                   fontSize: "16px",
                   fontWeight: "bold",
                   lineHeight: "24px",
                   letterSpacing: "-0.01em",
-                  display: "block",
+                  display: "flex",
+                  justifyContent: "space-between",
                   cursor: "pointer",
                   textDecoration: "none",
-                  color: "black",
+                  color: "white",
+                  width: "100%",
                 }}
                 href={`#${item}`}
               >
-                {item}
+                <p>{item}</p>
+                <KeyboardArrowRightIcon color="warning" />
               </a>
             </ListItemButton>
           </ListItem>
         ))}
         <Divider />
       </List>
-      <p className="mt-3">@2024 All rights reserved</p>
+      <p className="mt-3 text-success fw-bold">@2024 All rights reserved</p>
     </Box>
   );
 
@@ -143,6 +152,11 @@ export default function Nav(props) {
               "& .MuiDrawer-paper": {
                 boxSizing: "border-box",
                 width: drawerWidth,
+                backgroundColor: "black",
+                borderRight: "2px solid green",
+                borderTop: "1px solid green",
+
+                borderRadius: "10px",
               },
             }}
           >

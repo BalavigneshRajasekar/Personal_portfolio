@@ -3,6 +3,10 @@
   transform: scale(0.8);
   border-bottom: 3px solid green;
 }
+.drawer-nav:hover {
+  color: green;
+}
+
 .img {
   position: fixed;
   top: 0;
