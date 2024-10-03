@@ -31,11 +31,13 @@ function Home() {
         </h6>
         <TypeAnimation
           sequence={[
-            "Welcome to my page...",
+            "Welcome to my page :)",
             2000,
-            "Please Refer My past Projects...",
+            "Please Checkout My previous Projects...",
             2000,
-            "If You are interested Hire me !!! ",
+            "Want to know more about me ? ",
+            2000,
+            "Hire Me !!!  ",
             2000,
           ]}
           wrapper="span"
