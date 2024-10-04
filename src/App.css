@@ -38,8 +38,58 @@
   transition: 0.5s ease-in-out;
   transform: scale(0.8);
 }
+
+/* About page design */
 .About {
   background-color: black !important;
   position: absolute;
+  left: 0;
+  width: 100%;
   top: 1000px;
+}
+.About-content {
+  width: 50%;
+}
+.About-p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+@media only screen and (max-width: 600px) {
+  .About-content {
+    width: 100%;
+  }
+}
+
+/* //Skills design */
+
+.Skills {
+}
+.frontend {
+  min-width: 300px;
+  height: 300px;
+  background-color: rgb(6, 5, 5);
+  border-radius: 20px;
+  box-shadow: 4px 1px 15px 2px rgb(3, 156, 49);
+  cursor: pointer;
+  font-family: monospace;
+}
+.backend {
+  min-width: 300px;
+  height: 300px;
+  background-color: rgb(6, 5, 5);
+  border-radius: 20px;
+  box-shadow: 4px 1px 15px 2px rgb(3, 156, 49);
+  cursor: pointer;
+  font-family: monospace;
+}
+.Tools {
+  min-width: 300px;
+  height: 300px;
+  background-color: rgb(6, 5, 5);
+  border-radius: 20px;
+  box-shadow: 4px 1px 15px 2px rgb(3, 156, 49);
+  cursor: pointer;
+  font-family: monospace;
 }

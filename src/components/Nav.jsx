@@ -22,6 +22,7 @@ import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 import "../App.css";
 import Home from "./Home";
 import About from "./About";
+import Skills from "./Skills";
 
 const pages = ["Home", "About", "Projects", "Skills", "Contact"];
 const drawerWidth = 240;
@@ -168,9 +169,12 @@ export default function Nav(props) {
           <div id="Home">
             <Home />
           </div>
-          <div id="About">
+          <div id="About" className="About">
             <About />
           </div>
+          {/* <div id="Skills" className="Skills">
+            <Skills />
+          </div> */}
         </Box>
       </Box>
     </div>
