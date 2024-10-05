@@ -1,11 +1,11 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-unused-vars */
-import React from "react";
+import React, { useState } from "react";
 import MailIcon from "@mui/icons-material/Mail";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import PushPinIcon from "@mui/icons-material/PushPin";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
-import { Form, Input, Button } from "antd";
+import { Form, Input, Button, message } from "antd";
 import { SendOutlined } from "@ant-design/icons";
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
@@ -15,7 +15,10 @@ const { TextArea } = Input;
 // npm i @emailjs/browser
 function Contact() {
   const form1 = useRef();
+  const [btnLoading, setBtnLoading] = useState(false);
+
   const onFinish = (values) => {
+    setBtnLoading(true);
     console.log("Success:", values);
     console.log(form1);
 
@@ -30,14 +33,15 @@ function Contact() {
       )
       .then(
         () => {
+          form1.current.resetFields();
           console.log("SUCCESS!");
-          values.username = "";
-          values.email = "";
-          values.subject = "";
-          values.message = "";
+          message.success("Message sent successfully!");
+          setBtnLoading(false);
         },
         (error) => {
           console.log("FAILED...", error);
+          message.error("Failed to send message!");
+          setBtnLoading(false);
         }
       );
   };
@@ -115,6 +119,7 @@ function Contact() {
               type="primary"
               style={{ padding: 20 }}
               icon={<SendOutlined />}
+              loading={btnLoading}
             >
               Send Message
             </Button>

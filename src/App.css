@@ -137,3 +137,10 @@
     width: 100%;
   }
 }
+
+/* //footer design */
+
+.footerDiv {
+  font-size: 10px;
+  color: green;
+}

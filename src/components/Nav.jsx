@@ -89,7 +89,9 @@ export default function Nav(props) {
         ))}
         <Divider />
       </List>
-      <p className="mt-3 text-success fw-bold">@2024 All rights reserved</p>
+      <p className="mt-3 text-success fw-bold" style={{ fontSize: "10px" }}>
+        Copyright @ 2024 all rights reserved
+      </p>
     </Box>
   );
 

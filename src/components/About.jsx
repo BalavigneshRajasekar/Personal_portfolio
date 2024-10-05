@@ -8,6 +8,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 import Skills from "./Skills";
 import Project from "./Project";
 import Contact from "./Contact";
+import Footer from "./Footer";
 function About() {
   return (
     <>
@@ -74,8 +75,11 @@ function About() {
       >
         Contacts
       </Divider>
-      <div>
+      <div id="Contact">
         <Contact />
+      </div>
+      <div className="p-3">
+        <Footer />
       </div>
     </>
   );
