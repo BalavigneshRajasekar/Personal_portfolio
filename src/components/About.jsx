@@ -7,6 +7,7 @@ import React from "react";
 import ScrollAnimation from "react-animate-on-scroll";
 import Skills from "./Skills";
 import Project from "./Project";
+import Contact from "./Contact";
 function About() {
   return (
     <>
@@ -63,6 +64,18 @@ function About() {
       </Divider>
       <div id="Projects">
         <Project />
+      </div>
+      <Divider
+        className="mt-4"
+        type="horizontal"
+        style={{ color: "green", borderColor: "green", fontSize: "20px" }}
+        variant="solid"
+        orientation="left"
+      >
+        Contacts
+      </Divider>
+      <div>
+        <Contact />
       </div>
     </>
   );

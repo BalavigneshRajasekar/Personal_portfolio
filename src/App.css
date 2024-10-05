@@ -122,3 +122,18 @@
   transform: scale(0.8);
   transition: 0.5s ease-in-out;
 }
+
+/* // Contact design */
+
+.contact-info {
+  font-family: monospace;
+}
+.contact-form {
+  width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-form {
+    width: 100%;
+  }
+}
