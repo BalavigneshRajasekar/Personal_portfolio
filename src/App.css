@@ -93,3 +93,32 @@
   cursor: pointer;
   font-family: monospace;
 }
+
+/* // Project designs */
+
+.project-content {
+  letter-spacing: 1px;
+  font-family: sans-serif;
+}
+.project-action1 {
+  color: white;
+
+  padding: 1px;
+  border-radius: 3px;
+  font-size: 20px;
+  font-family: monospace;
+}
+.project-action1:hover {
+  transform: scale(0.8);
+  transition: 0.5s ease-in-out;
+}
+.project-action2 {
+  font-size: 20px;
+  font-family: monospace;
+  color: rgb(255, 0, 0);
+}
+
+.project-action2:hover {
+  transform: scale(0.8);
+  transition: 0.5s ease-in-out;
+}

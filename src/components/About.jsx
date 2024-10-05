@@ -6,6 +6,7 @@ import React from "react";
 
 import ScrollAnimation from "react-animate-on-scroll";
 import Skills from "./Skills";
+import Project from "./Project";
 function About() {
   return (
     <>
@@ -50,6 +51,18 @@ function About() {
       </Divider>
       <div id="Skills">
         <Skills />
+      </div>
+      <Divider
+        className="mt-4"
+        type="horizontal"
+        style={{ color: "green", borderColor: "green", fontSize: "20px" }}
+        variant="solid"
+        orientation="left"
+      >
+        Projects
+      </Divider>
+      <div id="Projects">
+        <Project />
       </div>
     </>
   );
