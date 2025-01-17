@@ -182,12 +182,12 @@ function Project() {
                   <img src="react.png" width={"30px"}></img>
                 </Tooltip>
                 <Tooltip
-                  title="MUI"
+                  title="Tailwind Css"
                   color="white"
                   placement="bottom"
                   overlayInnerStyle={{ color: "black" }}
                 >
-                  <img src="material.png" width={"30px"}></img>
+                  <img src="tailwind.png" width={"30px"}></img>
                 </Tooltip>
                 <Tooltip
                   title="Node JS"
