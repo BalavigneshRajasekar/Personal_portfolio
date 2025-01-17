@@ -57,7 +57,7 @@ function Home() {
           </Grid>
           <Grid size={{ xs: 6, md: 3 }}>
             <a
-              href="https://www.linkedin.com/in/bala-vignesh-r-a97670226/"
+              href="https://www.linkedin.com/in/balavignesh-rajasekar-aa41211a1"
               target="blank"
               className="text-decoration-none "
             >
@@ -75,10 +75,9 @@ function Home() {
           </Grid>
           <Grid size={{ xs: 6, md: 3 }}>
             <a
-              href="Balavignesh(Fullstack)high rate.pdf"
+              href="Balavignesh MERN stack resume.pdf"
               target="blank"
               className="text-decoration-none "
-              download={true}
             >
               <Button
                 sx={{ letterSpacing: "2px" }}

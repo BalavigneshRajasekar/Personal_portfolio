@@ -120,6 +120,121 @@ function Project() {
               </div>
             </div>
           </Grid>
+
+          <Grid size={{ xs: 12, md: 6 }} width={"100%"}>
+            <Carousel autoplay={true} arrows={true} autoplaySpeed={5000}>
+              <div>
+                <img
+                  src="project3.1.png"
+                  width={"100%"}
+                  height={"120%"}
+                  style={{ borderRadius: "20px" }}
+                  loading="lazy"
+                ></img>
+              </div>
+              <div>
+                <img
+                  src="project3.2.png"
+                  width={"100%"}
+                  height={"120%"}
+                  style={{ borderRadius: "20px" }}
+                  loading="lazy"
+                ></img>
+              </div>
+              <div>
+                <img
+                  src="project3.3.png"
+                  width={"100%"}
+                  height={"120%"}
+                  style={{ borderRadius: "20px" }}
+                  loading="lazy"
+                ></img>
+              </div>
+            </Carousel>
+          </Grid>
+          <Grid size={{ xs: 12, md: 6 }}>
+            <div className="project-content">
+              <h3 className="fw-bold border-2 border-bottom border-danger pb-3">
+                Online Supplement Application
+              </h3>
+              <p className="mt-3 project-content">
+                An innovative e-commerce platform designed to provide a seamless
+                shopping experience for health and fitness enthusiasts. The
+                store offers a wide range of high-quality supplements, including
+                protein powders, vitamins, and fitness products
+              </p>
+              <p className="d-flex gap-3 fw-bold flex-wrap">
+                Tech stack used :{" "}
+                <Tooltip
+                  title="Javascript"
+                  color="white"
+                  placement="bottom"
+                  overlayInnerStyle={{ color: "black" }}
+                >
+                  <img src="js.png" width={"30px"}></img>
+                </Tooltip>
+                <Tooltip
+                  title="React"
+                  color="white"
+                  placement="bottom"
+                  overlayInnerStyle={{ color: "black" }}
+                >
+                  <img src="react.png" width={"30px"}></img>
+                </Tooltip>
+                <Tooltip
+                  title="MUI"
+                  color="white"
+                  placement="bottom"
+                  overlayInnerStyle={{ color: "black" }}
+                >
+                  <img src="material.png" width={"30px"}></img>
+                </Tooltip>
+                <Tooltip
+                  title="Node JS"
+                  color="white"
+                  placement="bottom"
+                  overlayInnerStyle={{ color: "black" }}
+                >
+                  <img src="node-js.png" width={"30px"}></img>
+                </Tooltip>
+                <Tooltip
+                  title="Mongo DB"
+                  color="white"
+                  placement="bottom"
+                  overlayInnerStyle={{ color: "black" }}
+                >
+                  <img src="mongodb.png" width={"30px"}></img>
+                </Tooltip>
+                <Tooltip
+                  title="Stripe"
+                  color="white"
+                  placement="bottom"
+                  overlayInnerStyle={{ color: "black" }}
+                >
+                  <img src="stripe.png" width={"30px"}></img>
+                </Tooltip>
+              </p>
+              <div className="d-flex justify-content-between justify-content-md-start gap-md-5">
+                <a
+                  href="https://github.com/BalavigneshRajasekar/Online-supplement-Application.git"
+                  target="blank"
+                  className="project-action1 text-decoration-none"
+                >
+                  <GitHubIcon fontSize="large" />
+                  <span className="ms-2">Code</span>
+                </a>
+                <a
+                  href="https://dksupplements.vercel.app/"
+                  target="blank"
+                  className="project-action2 text-decoration-none"
+                >
+                  <span className="ms-2">Demo</span>{" "}
+                  <ArrowForwardIcon fontSize="large" />
+                </a>
+              </div>
+            </div>
+          </Grid>
+
           <Grid size={{ xs: 12, md: 6 }} width={"100%"}>
             <Carousel autoplay={true} arrows={true} autoplaySpeed={5000}>
               <div>
@@ -218,94 +333,7 @@ function Project() {
               </div>
             </div>
           </Grid>
-          <Grid size={{ xs: 12, md: 6 }} width={"100%"}>
-            <Carousel autoplay={true} arrows={true} autoplaySpeed={5000}>
-              <div>
-                <img
-                  src="project3.1.png"
-                  width={"100%"}
-                  height={"120%"}
-                  style={{ borderRadius: "20px" }}
-                  loading="lazy"
-                ></img>
-              </div>
-              <div>
-                <img
-                  src="project3.2.png"
-                  width={"100%"}
-                  height={"120%"}
-                  style={{ borderRadius: "20px" }}
-                  loading="lazy"
-                ></img>
-              </div>
-              <div>
-                <img
-                  src="project3.3.png"
-                  width={"100%"}
-                  height={"120%"}
-                  style={{ borderRadius: "20px" }}
-                  loading="lazy"
-                ></img>
-              </div>
-            </Carousel>
-          </Grid>
-          <Grid size={{ xs: 12, md: 6 }}>
-            <div className="project-content">
-              <h3 className="fw-bold border-2 border-bottom border-danger pb-3">
-                E-com Landing page
-              </h3>
-              <p className="mt-3 project-content">
-                Created an E-com Landing page It's just an landing page with
-                some filter option through the Items collection. Here I used
-                Node API for product details,
-              </p>
-              <p className="d-flex gap-3 fw-bold flex-wrap">
-                Tech stack used :{" "}
-                <Tooltip
-                  title="React"
-                  color="white"
-                  placement="bottom"
-                  overlayInnerStyle={{ color: "black" }}
-                >
-                  <img src="react.png" width={"30px"}></img>
-                </Tooltip>
-                <Tooltip
-                  title="Node JS"
-                  color="white"
-                  placement="bottom"
-                  overlayInnerStyle={{ color: "black" }}
-                >
-                  <img src="node-js.png" width={"30px"}></img>
-                </Tooltip>
-                <Tooltip
-                  title="Mongo DB"
-                  color="white"
-                  placement="bottom"
-                  overlayInnerStyle={{ color: "black" }}
-                >
-                  <img src="mongodb.png" width={"30px"}></img>
-                </Tooltip>
-              </p>
-              <div className="d-flex justify-content-between justify-content-md-start gap-md-5">
-                <a
-                  href="https://github.com/BalavigneshRajasekar/E-com-Landing.git"
-                  target="blank"
-                  className="project-action1 text-decoration-none"
-                >
-                  <GitHubIcon fontSize="large" />
-                  <span className="ms-2">Code</span>
-                </a>
-                <a
-                  href="https://e-com-landing-lemon.vercel.app/"
-                  target="blank"
-                  className="project-action2 text-decoration-none"
-                >
-                  <span className="ms-2">Demo</span>{" "}
-                  <ArrowForwardIcon fontSize="large" />
-                </a>
-              </div>
-            </div>
-          </Grid>
+
           <Grid size={{ xs: 12, md: 6 }} width={"100%"}>
             <Carousel autoplay={true} arrows={true} autoplaySpeed={5000}>
               <div>
@@ -340,16 +368,23 @@ function Project() {
           <Grid size={{ xs: 12, md: 6 }}>
             <div className="project-content">
               <h3 className="fw-bold border-2 border-bottom border-danger pb-3">
-                Tic Tac Toe
+                User Management
               </h3>
               <p className="mt-3 project-content">
-                Tic Tac Toe is a timeless, easy-to-learn game that offers a fun
-                and strategic challenge for players of all ages. Played on a 3x3
-                grid, two players Player 1 as X ,player 2 as O.Created By using
-                React use Reducer
+                A secure and scalable user management system designed to manage
+                users and their roles efficiently, ensuring controlled access to
+                resources and functionality based on assigned permissions.
               </p>
               <p className="d-flex gap-3 fw-bold flex-wrap">
                 Tech stack used :{" "}
+                <Tooltip
+                  title="Javascript"
+                  color="white"
+                  placement="bottom"
+                  overlayInnerStyle={{ color: "black" }}
+                >
+                  <img src="js.png" width={"30px"}></img>
+                </Tooltip>
                 <Tooltip
                   title="React"
                   color="white"
@@ -359,17 +394,33 @@ function Project() {
                   <img src="react.png" width={"30px"}></img>
                 </Tooltip>
                 <Tooltip
-                  title="Css"
+                  title="ANTD"
                   color="white"
                   placement="bottom"
                   overlayInnerStyle={{ color: "black" }}
                 >
-                  <img src="css.png" width={"30px"}></img>
+                  <img src="antd.png" width={"30px"}></img>
+                </Tooltip>
+                <Tooltip
+                  title="Node JS"
+                  color="white"
+                  placement="bottom"
+                  overlayInnerStyle={{ color: "black" }}
+                >
+                  <img src="node-js.png" width={"30px"}></img>
+                </Tooltip>
+                <Tooltip
+                  title="Mongo DB"
+                  color="white"
+                  placement="bottom"
+                  overlayInnerStyle={{ color: "black" }}
+                >
+                  <img src="mongodb.png" width={"30px"}></img>
                 </Tooltip>
               </p>
               <div className="d-flex justify-content-between justify-content-md-start gap-md-5">
                 <a
-                  href="https://github.com/BalavigneshRajasekar/Tic-Tac-too.git"
+                  href="https://github.com/BalavigneshRajasekar/InterviewTask.git"
                   target="blank"
                   className="project-action1 text-decoration-none"
                 >
@@ -377,7 +428,7 @@ function Project() {
                   <span className="ms-2">Code</span>
                 </a>
                 <a
-                  href="https://tic-tac-too-three.vercel.app/"
+                  href="https://interview-task-lime.vercel.app/"
                   target="blank"
                   className="project-action2 text-decoration-none"
                 >
