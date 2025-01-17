@@ -206,6 +206,14 @@ function Project() {
                   <img src="mongodb.png" width={"30px"}></img>
                 </Tooltip>
                 <Tooltip
+                  title="Redux"
+                  color="white"
+                  placement="bottom"
+                  overlayInnerStyle={{ color: "black" }}
+                >
+                  <img src="redux.png" width={"30px"}></img>
+                </Tooltip>
+                <Tooltip
                   title="Stripe"
                   color="white"
                   placement="bottom"
