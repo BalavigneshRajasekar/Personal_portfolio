@@ -17,114 +17,6 @@ function Project() {
             <Carousel autoplay={true} arrows={true} autoplaySpeed={5000}>
               <div>
                 <img
-                  src="project1.1.png"
-                  width={"100%"}
-                  height={"120%"}
-                  style={{ borderRadius: "20px" }}
-                  loading="lazy"
-                ></img>
-              </div>
-              <div>
-                <img
-                  src="project1.2.png"
-                  width={"100%"}
-                  height={"120%"}
-                  style={{ borderRadius: "20px" }}
-                  loading="lazy"
-                ></img>
-              </div>
-              <div>
-                <img
-                  src="project1.3.png"
-                  width={"100%"}
-                  height={"120%"}
-                  style={{ borderRadius: "20px" }}
-                  loading="lazy"
-                ></img>
-              </div>
-            </Carousel>
-          </Grid>
-          <Grid size={{ xs: 12, md: 6 }}>
-            <div className="project-content">
-              <h3 className="fw-bold border-2 border-bottom border-danger pb-3">
-                Wedding Event Management
-              </h3>
-              <p className="mt-3 project-content">
-                Wedding event management app designed to simplify the wedding
-                planning process. User can able to find the mall, caterings,
-                decorations,Dj,Photographers all at one place.The application
-                use Authentication,Authorization to secure information users and
-                have the efficient Backend API
-              </p>
-
-              <p className="d-flex gap-3 fw-bold flex-wrap">
-                Tech stack used :{" "}
-                <Tooltip
-                  title="Javascript"
-                  color="white"
-                  placement="bottom"
-                  overlayInnerStyle={{ color: "black" }}
-                >
-                  <img src="js.png" width={"30px"}></img>
-                </Tooltip>
-                <Tooltip
-                  title="React"
-                  color="white"
-                  placement="bottom"
-                  overlayInnerStyle={{ color: "black" }}
-                >
-                  <img src="react.png" width={"30px"}></img>
-                </Tooltip>
-                <Tooltip
-                  title="Material UI"
-                  color="white"
-                  placement="bottom"
-                  overlayInnerStyle={{ color: "black" }}
-                >
-                  <img src="material.png" width={"30px"}></img>
-                </Tooltip>
-                <Tooltip
-                  title="Node JS"
-                  color="white"
-                  placement="bottom"
-                  overlayInnerStyle={{ color: "black" }}
-                >
-                  <img src="node-js.png" width={"30px"}></img>
-                </Tooltip>
-                <Tooltip
-                  title="Mongo DB"
-                  color="white"
-                  placement="bottom"
-                  overlayInnerStyle={{ color: "black" }}
-                >
-                  <img src="mongodb.png" width={"30px"}></img>
-                </Tooltip>
-              </p>
-              <div className="d-flex justify-content-between justify-content-md-start gap-md-5">
-                <a
-                  href="https://github.com/BalavigneshRajasekar/WeddingWise---Event-Management-App.git"
-                  target="blank"
-                  className="project-action1 text-decoration-none"
-                >
-                  <GitHubIcon fontSize="large" />
-                  <span className="ms-2">Code</span>
-                </a>
-                <a
-                  href="https://event-manager-lovat.vercel.app/"
-                  target="blank"
-                  className="project-action2 text-decoration-none"
-                >
-                  <span className="ms-2">Demo</span>{" "}
-                  <ArrowForwardIcon fontSize="large" />
-                </a>
-              </div>
-            </div>
-          </Grid>
-
-          <Grid size={{ xs: 12, md: 6 }} width={"100%"}>
-            <Carousel autoplay={true} arrows={true} autoplaySpeed={5000}>
-              <div>
-                <img
                   src="project3.1.png"
                   width={"100%"}
                   height={"120%"}
@@ -277,53 +169,79 @@ function Project() {
           <Grid size={{ xs: 12, md: 6 }}>
             <div className="project-content">
               <h3 className="fw-bold border-2 border-bottom border-danger pb-3">
-                Library Admin Dashboard
+                Chat Application
               </h3>
               <p className="mt-3 project-content">
-                A Library Admin Dashboard Application is designed to empower
-                librarians and administrators to manage all library operations
-                from a centralized digital platform. Through this application
-                admin can find the books count ,students count, books taken by
-                students and return by students
+                Real-Time Chat Application designed to connect users instantly
+                through a clean and responsive interface. Users can log in using
+                their Google account or email credentials and chat with other
+                registered users in real-time. The application ensures secure
+                communication using Authentication and Authorization, and
+                features a robust backend API to handle user data and messages
+                efficiently.
               </p>
               <p className="d-flex gap-3 fw-bold flex-wrap">
                 Tech stack used :{" "}
                 <Tooltip
-                  title="Css"
+                  title="Javascript"
                   color="white"
                   placement="bottom"
                   overlayInnerStyle={{ color: "black" }}
                 >
-                  <img src="css.png" width={"30px"}></img>
+                  <img src="js.png" width={"30px"}></img>
                 </Tooltip>
                 <Tooltip
-                  title="Typescript"
+                  title="React"
                   color="white"
                   placement="bottom"
                   overlayInnerStyle={{ color: "black" }}
                 >
-                  <img src="typescript.png" width={"30px"}></img>
+                  <img src="react.png" width={"30px"}></img>
                 </Tooltip>
                 <Tooltip
-                  title="Angular"
+                  title="Tailwind Css"
                   color="white"
                   placement="bottom"
                   overlayInnerStyle={{ color: "black" }}
                 >
-                  <img src="angular.png" width={"30px"}></img>
+                  <img src="tailwind.png" width={"30px"}></img>
                 </Tooltip>
                 <Tooltip
-                  title="Firebase"
+                  title="Node JS"
                   color="white"
                   placement="bottom"
                   overlayInnerStyle={{ color: "black" }}
                 >
-                  <img src="Firebase.png" width={"30px"}></img>
+                  <img src="node-js.png" width={"30px"}></img>
+                </Tooltip>
+                <Tooltip
+                  title="Mongo DB"
+                  color="white"
+                  placement="bottom"
+                  overlayInnerStyle={{ color: "black" }}
+                >
+                  <img src="mongodb.png" width={"30px"}></img>
+                </Tooltip>
+                <Tooltip
+                  title="Redux"
+                  color="white"
+                  placement="bottom"
+                  overlayInnerStyle={{ color: "black" }}
+                >
+                  <img src="redux.png" width={"30px"}></img>
+                </Tooltip>
+                <Tooltip
+                  title="Socket.IO"
+                  color="white"
+                  placement="bottom"
+                  overlayInnerStyle={{ color: "black" }}
+                >
+                  <img src="socket.png" width={"30px"}></img>
                 </Tooltip>
               </p>
               <div className="d-flex justify-content-between justify-content-md-start gap-md-5">
                 <a
-                  href="https://github.com/BalavigneshRajasekar/Library_Admin_Dashboard_Angular.git"
+                  href="https://github.com/BalavigneshRajasekar/Real-Time-Chat-Application.git"
                   target="blank"
                   className="project-action1 text-decoration-none"
                 >
@@ -331,7 +249,115 @@ function Project() {
                   <span className="ms-2">Code</span>
                 </a>
                 <a
-                  href="https://library-admin-dashboard-angular.vercel.app/"
+                  href="https://chathub-three-flax.vercel.app/"
+                  target="blank"
+                  className="project-action2 text-decoration-none"
+                >
+                  <span className="ms-2">Demo</span>{" "}
+                  <ArrowForwardIcon fontSize="large" />
+                </a>
+              </div>
+            </div>
+          </Grid>
+
+          <Grid size={{ xs: 12, md: 6 }} width={"100%"}>
+            <Carousel autoplay={true} arrows={true} autoplaySpeed={5000}>
+              <div>
+                <img
+                  src="project1.1.png"
+                  width={"100%"}
+                  height={"120%"}
+                  style={{ borderRadius: "20px" }}
+                  loading="lazy"
+                ></img>
+              </div>
+              <div>
+                <img
+                  src="project1.2.png"
+                  width={"100%"}
+                  height={"120%"}
+                  style={{ borderRadius: "20px" }}
+                  loading="lazy"
+                ></img>
+              </div>
+              <div>
+                <img
+                  src="project1.3.png"
+                  width={"100%"}
+                  height={"120%"}
+                  style={{ borderRadius: "20px" }}
+                  loading="lazy"
+                ></img>
+              </div>
+            </Carousel>
+          </Grid>
+          <Grid size={{ xs: 12, md: 6 }}>
+            <div className="project-content">
+              <h3 className="fw-bold border-2 border-bottom border-danger pb-3">
+                Wedding Event Management
+              </h3>
+              <p className="mt-3 project-content">
+                Wedding event management app designed to simplify the wedding
+                planning process. User can able to find the mall, caterings,
+                decorations,Dj,Photographers all at one place.The application
+                use Authentication,Authorization to secure information users and
+                have the efficient Backend API
+              </p>
+
+              <p className="d-flex gap-3 fw-bold flex-wrap">
+                Tech stack used :{" "}
+                <Tooltip
+                  title="Javascript"
+                  color="white"
+                  placement="bottom"
+                  overlayInnerStyle={{ color: "black" }}
+                >
+                  <img src="js.png" width={"30px"}></img>
+                </Tooltip>
+                <Tooltip
+                  title="React"
+                  color="white"
+                  placement="bottom"
+                  overlayInnerStyle={{ color: "black" }}
+                >
+                  <img src="react.png" width={"30px"}></img>
+                </Tooltip>
+                <Tooltip
+                  title="Material UI"
+                  color="white"
+                  placement="bottom"
+                  overlayInnerStyle={{ color: "black" }}
+                >
+                  <img src="material.png" width={"30px"}></img>
+                </Tooltip>
+                <Tooltip
+                  title="Node JS"
+                  color="white"
+                  placement="bottom"
+                  overlayInnerStyle={{ color: "black" }}
+                >
+                  <img src="node-js.png" width={"30px"}></img>
+                </Tooltip>
+                <Tooltip
+                  title="Mongo DB"
+                  color="white"
+                  placement="bottom"
+                  overlayInnerStyle={{ color: "black" }}
+                >
+                  <img src="mongodb.png" width={"30px"}></img>
+                </Tooltip>
+              </p>
+              <div className="d-flex justify-content-between justify-content-md-start gap-md-5">
+                <a
+                  href="https://github.com/BalavigneshRajasekar/WeddingWise---Event-Management-App.git"
+                  target="blank"
+                  className="project-action1 text-decoration-none"
+                >
+                  <GitHubIcon fontSize="large" />
+                  <span className="ms-2">Code</span>
+                </a>
+                <a
+                  href="https://event-manager-lovat.vercel.app/"
                   target="blank"
                   className="project-action2 text-decoration-none"
                 >
