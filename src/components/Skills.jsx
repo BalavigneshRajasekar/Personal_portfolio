@@ -51,6 +51,9 @@ function Skills() {
                 <p>
                   <img src="css.png" width={"60px"}></img> Css
                 </p>
+                <p>
+                  <img src="redux.png" width={"60px"}></img> Redux
+                </p>
               </div>
               <div>
                 <p>
@@ -61,6 +64,9 @@ function Skills() {
                 </p>
                 <p>
                   <img src="antd.png" width={"60px"}></img> Antd
+                </p>
+                <p>
+                  <img src="tailwind.png" width={"60px"}></img> Tailwind Css
                 </p>
               </div>
             </div>
@@ -81,6 +87,14 @@ function Skills() {
                   <p>
                     <img src="java.png" width={"60px"}></img> Java
                   </p>
+                  <p>
+                    <img
+                      src="postman.png"
+                      width={"60px"}
+                      style={{ borderRadius: "20px" }}
+                    ></img>{" "}
+                    Postman
+                  </p>
                 </div>
                 <div>
                   <p>
@@ -88,6 +102,14 @@ function Skills() {
                   </p>
                   <p>
                     <img src="sql.png" width={"60px"}></img> SQL
+                  </p>
+                  <p>
+                    <img
+                      src="socket.png"
+                      width={"60px"}
+                      style={{ borderRadius: "20px" }}
+                    ></img>{" "}
+                    Socket.IO
                   </p>
                 </div>
               </div>
